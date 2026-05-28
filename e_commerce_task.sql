@@ -1,4 +1,4 @@
------ SQL Basics Task ----
+----- SQL Task ----
 -- 1.
 SELECT customer_name, email, city
 FROM customers;
@@ -20,13 +20,10 @@ FROM orders
 WHERE total_amount IS NOT NULL
 ORDER BY total_amount DESC;
 
-
-
 --5
 SELECT *
 FROM customers
 WHERE city = 'Lagos' OR city = 'Abuja';
-
 
 --6
 SELECT *
